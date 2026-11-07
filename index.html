@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surat Kecil untuk SAYANGGKUUU ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="app">
+    <section id="envelopePage" class="page active">
+      <p class="eyebrow">a little surprise for you</p>
+      <h1>Hai, Sayangkuuu! ♡</h1>
+      <p class="subtitle">Ada sesuatu yang ingin aku kasih buat kamu...</p>
+      <button id="openEnvelope" class="envelope" aria-label="Buka surat">
+        <span class="envelope-letter">💌</span>
+        <span class="envelope-flap"></span>
+      </button>
+      <p class="hint">Tekan amplopnya untuk membuka surat</p>
+    </section>
+
+    <section id="letterPage" class="page">
+      <article class="letter-card">
+        <p class="eyebrow">for my favorite person</p>
+        <h1>MY LOVEEEE! 🎂</h1>
+        <div class="pixel-cat">🐱💗</div>
+        <p>Selamat ulang tahun, sayangkuuu!</p>
+        <p>Terima kasih sudah hadir dan membuat hari-hariku jadi lebih berwarna. Semoga semua hal baik selalu datang ke hidup kamu. Aku bangga sama kamu, dan aku akan selalu mendukung langkah-langkahmu.</p>
+        <p class="question">sayanggku kamu mau terus bikin banyak kenangan manis bareng aku?</p>
+        <div class="actions">
+          <button id="yesButton" class="primary">MAUUU! 💖</button>
+          <button id="noButton" class="secondary">Nggak ah 🙈</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="albumPage" class="page">
+      <p class="eyebrow">our little gallery</p>
+      <h1>Album Foto Kita 📸</h1>
+      <p class="subtitle"></p>
+      <label class="upload-button" for="photoInput">＋ Tambahkan beberapa foto</label>
+      <input id="photoInput" type="file" accept="image/*" multiple>
+
+      <div id="photoGrid" class="photo-grid">
+
+  <div class="photo-card">
+    <img
+      src="WhatsApp Image 2026-11-05 at 18.59.26 (1).jpeg"
+      alt="Foto kenangan 1"
+    >
+    <p>Foto kenangan 1</p>
+  </div>
+
+  <div class="photo-card">
+    <img
+      src="WhatsApp Image 2026-11-05 at 18.59.26 (2).jpeg"
+      alt="Foto kenangan 2"
+    >
+    <p>Foto kenangan 2</p>
+  </div>
+
+ <div class="photo-card">
+    <img
+      src="WhatsApp Image 2026-11-05 at 18.59.26 (3).jpeg"
+      alt="Foto kenangan 3"
+    >
+    <p>Foto kenangan 3</p>
+  </div>
+
+  <div class="photo-card">
+    <img
+      src="WhatsApp Image 2026-11-07 at 13.16.02.jpeg"
+      alt="Foto kenangan 4"
+    >
+    <p>Foto kenangan 4</p>
+  </div>
+
+</div>
+
+      <p class="small-note">Foto yang dipilih akan tampil di halaman ini selama website dibuka.</p>
+      <button id="toMemories" class="primary">Lanjut lihat kenangan →</button>
+    </section>
+
+    <section id="memoriesPage" class="page">
+      <p class="eyebrow">little things, big memories</p>
+      <h1>Hal-Hal yang Aku Suka 💞</h1>
+
+      <div class="memory-list">
+        <article class="memory-card">
+          <span>🌷</span>
+          <h3>Senyum kamu</h3>
+          <p>Hal sederhana yang selalu bisa bikin hariku terasa lebih baik.</p>
+        </article>
+
+        <article class="memory-card">
+          <span>☁️</span>
+          <h3>Cerita kita</h3>
+          <p>Aku suka setiap obrolan,tawa,cerita kecil yang kita bagi.</p>
+        </article>
+
+        <article class="memory-card">
+          <span>⭐</span>
+          <h3>Perjalanan kita</h3>
+          <p>Semoga masih banyak tempat,cerita,kenangan yang bisa kita buat bareng bareng yaa.</p>
+        </article>
+      </div>
+
+      <button id="toFinal" class="primary">Ada satu pesan lagi ♡</button>
+    </section>
+
+    <section id="finalPage" class="page">
+      <article class="letter-card final-card">
+        <div class="big-heart">💗</div>
+        <h1>Untuk Kamu sayangku.</h1>
+        <p>happy birthday to my beautiful girl, you deserve the absolute world. i always love you. thank you for being part of my life. i'll keep cheering for you and hope your days are filled with happiness.</p>
+        <p class="signature">
+          I LOVE YOU,<br>
+          KIRANA APTA PRASONGKO ♡
+        </p>
+        <button id="restart" class="secondary">Ulangi dari awal ↺</button>
+      </article>
+    </section>
+  </main>
+
+  <audio id="backgroundMusic" src="ssstik.io_1793878987312.mp3" loop></audio>
+
+  <div class="music-control">
+    <label for="musicInput">♫ Pilih musik</label>
+    <input id="musicInput" type="file" accept="audio/*">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
